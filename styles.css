@@ -1,16 +1,30 @@
 @import './styles/header.css';
+@import './styles/common.css';
+@import './styles/variables.css';
+@import './styles/landing.css';
 
-:root {
-  --color-text: rgb(58, 58, 58);
-  --border : rgba(58, 58, 58, 0.5);
+@font-face {
+  font-family: 'Aldrich';
+  src: url(./assests/fonts/Aldrich-Regular.ttf);
 }
+
+@font-face {
+  font-family: 'Sunflower';
+  src: url(./assests/fonts/Sunflower-Light.ttf);
+}
+
 
 body,
 html {
   margin: 0;
   padding: 0;
   color: var(--color-text);
-  font-family: 'Aldrich', sans-serif;
+  font-family: 'Sunflower', sans-serif;
+  font-size: 10px;
+}
+
+body {
+  display: flex;
 }
 
 * {

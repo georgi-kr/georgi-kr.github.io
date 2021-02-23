@@ -1,0 +1,48 @@
+:root {
+    --color-text:rgb(128,144,150);
+    --border: #1D1D1D;
+    --color-main: #3588cf;
+    --color-accent: rgb(8,253,216);
+    --color-error: #ff4157;
+    --color-accent-shadow: rgb(253,33,85);
+    --color-text-secondary: #424242;
+    --color-subtitle: ;
+    --color-hints: #a1a0a0;
+    --color-divider: #ececec;
+    --color-background: #1D1D1D;
+    --color-background-darker: #181818;
+    --color-filter: #2c2f33;
+    --color-progress-bar: #07adad;
+    --color-default: #ffffff;
+    --color-label: #c7c7c7;
+    --color-input: #3c3c3c;
+    --color-button-hover: #9ac3e7;
+    --color-box-shadow: rgba(47, 58, 71, 0.1);
+    --color-box-shadow-dense: rgba(47, 58, 71, 0.23);
+    --color-dark: #000;
+
+
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+
+    --font-size-show-title: 30px;
+    --font-size-title: 26px;
+    --font-size-filters: 18px;
+    --font-size-default: 16px;
+    --font-size-body: 14px;
+    --font-size-body-small: 12px;
+
+    --small-phone-breakpoint: 380px;
+    --small-phone-max-width: 481px;
+    --phone-max-width: 520px;
+    --small-phone-min-height: 641px;
+    --tablet-breakpoint: 768px;
+    --tablet-max-width: 767px;
+    --desktop-breakpoint: 1024px;
+    --widescreen-breakpoint: 1280px;
+    --widescreen-max-width: 1281px;
+    --wxga-breakpoint: 1366px;
+    --wxga-max-width: 1367px;
+    --fhd-breakpoint: 1920px;
+}
