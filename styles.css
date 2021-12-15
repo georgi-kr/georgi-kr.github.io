@@ -2,15 +2,16 @@
 @import './styles/common.css';
 @import './styles/variables.css';
 @import './styles/landing.css';
+@import './styles/main.css';
 
 @font-face {
   font-family: 'Aldrich';
-  src: url(./assests/fonts/Aldrich-Regular.ttf);
+  src:  url(./assets/fonts/Aldrich-Regular.woff2) format('woff2');
 }
 
 @font-face {
   font-family: 'Sunflower';
-  src: url(./assests/fonts/Sunflower-Light.ttf);
+  src:  url(./assets/fonts/Sunflower-Light.woff2) format('woff2');
 }
 
 

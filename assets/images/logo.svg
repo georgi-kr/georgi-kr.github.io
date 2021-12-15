@@ -5,7 +5,7 @@
     </clipPath>
   </defs>
   <g id="Web_1280_1" data-name="Web 1280 – 1" clip-path="url(#clip-Web_1280_1)">
-    <text id="G" transform="translate(7 -10)" fill="#08fdd8" font-size="100" font-family="Aldrich-Regular, Aldrich"><tspan x="0" y="91">G</tspan></text>
-    <text id="G-2" data-name="G" transform="translate(0 -15)" fill="#fd2155" font-size="100" font-family="Aldrich-Regular, Aldrich"><tspan x="0" y="91">G</tspan></text>
+    <text id="G" transform="translate(7 -10)" fill="#08fdd8" font-size="100"  class="aldrich-font"><tspan x="0" y="91">G</tspan></text>
+    <text id="G-2" data-name="G" transform="translate(0 -15)" fill="#fd2155" font-size="100" class="aldrich-font"><tspan x="0" y="91">G</tspan></text>
   </g>
 </svg>

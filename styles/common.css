@@ -68,6 +68,10 @@
     right: unset
 }
 
+.aldrich-font {
+    font-family: 'Sunflower', sans-serif;
+}
+
 @keyframes MoveUpDown {
     0%, 100% {
       bottom: 2rem;
