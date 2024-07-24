@@ -3,7 +3,7 @@ import "./App.css";
 export const App = () => {
   return (
     <>
-      <div>Georgi portfolio</div>
+      <div>Georgi portfolio v2</div>
     </>
   );
 };
