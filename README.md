@@ -1,1 +1,1 @@
-# georgi-krastev9715.github.io
+# georgi-kr.github.io
