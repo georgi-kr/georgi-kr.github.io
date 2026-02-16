@@ -46,16 +46,6 @@ export const App = () => {
                 gh
               </a>
             </div>
-            <div className="contact-info">
-              <div className="contact-item">
-                <span className="contact-icon">📍</span>
-                <span>Sofia, Bulgaria</span>
-              </div>
-              <div className="contact-item">
-                <span className="contact-icon">📧</span>
-                <a href="mailto:contact@example.com">contact@example.com</a>
-              </div>
-            </div>
             <button className="download-cv-btn">
               <span className="download-icon">⬇</span>
               Download CV
@@ -70,22 +60,16 @@ export const App = () => {
             About
           </button>
           <button
-            className={`nav-item ${activeSection === "about" ? "active" : ""}`}
-            onClick={() => scrollToSection("about")}
+            className={`nav-item ${activeSection === "techstack" ? "active" : ""}`}
+            onClick={() => scrollToSection("techstack")}
           >
-            Resume
+            Tech Stack
           </button>
           <button
             className={`nav-item ${activeSection === "projects" ? "active" : ""}`}
             onClick={() => scrollToSection("projects")}
           >
             Portfolio
-          </button>
-          <button
-            className={`nav-item ${activeSection === "contact" ? "active" : ""}`}
-            onClick={() => scrollToSection("contact")}
-          >
-            Contact
           </button>
         </nav>
       </aside>
@@ -99,22 +83,16 @@ export const App = () => {
             About
           </button>
           <button
-            className={`top-nav-item ${activeSection === "about" ? "active" : ""}`}
-            onClick={() => scrollToSection("about")}
+            className={`top-nav-item ${activeSection === "techstack" ? "active" : ""}`}
+            onClick={() => scrollToSection("techstack")}
           >
-            Resume
+            Tech Stack
           </button>
           <button
             className={`top-nav-item ${activeSection === "projects" ? "active" : ""}`}
             onClick={() => scrollToSection("projects")}
           >
             Portfolio
-          </button>
-          <button
-            className={`top-nav-item ${activeSection === "contact" ? "active" : ""}`}
-            onClick={() => scrollToSection("contact")}
-          >
-            Contact
           </button>
         </nav>
 
@@ -168,10 +146,38 @@ export const App = () => {
           </div>
         </section>
 
-        <section id="about" className="section">
-          <h2 className="section-title">Resume</h2>
-          <div className="section-content">
-            <p>Resume content goes here...</p>
+        <section id="techstack" className="section">
+          <h2 className="section-title">Tech Stack</h2>
+          <div className="tech-stack-content">
+            <div className="tech-category">
+              <h3 className="tech-category-title">Frontend</h3>
+              <div className="tech-items">
+                <div className="tech-item">React</div>
+                <div className="tech-item">TypeScript</div>
+                <div className="tech-item">JavaScript</div>
+                <div className="tech-item">HTML5</div>
+                <div className="tech-item">CSS3</div>
+                <div className="tech-item">Vite</div>
+              </div>
+            </div>
+            <div className="tech-category">
+              <h3 className="tech-category-title">Backend</h3>
+              <div className="tech-items">
+                <div className="tech-item">Node.js</div>
+                <div className="tech-item">Express</div>
+                <div className="tech-item">REST APIs</div>
+                <div className="tech-item">GraphQL</div>
+              </div>
+            </div>
+            <div className="tech-category">
+              <h3 className="tech-category-title">Tools & Others</h3>
+              <div className="tech-items">
+                <div className="tech-item">Git</div>
+                <div className="tech-item">GitHub</div>
+                <div className="tech-item">Docker</div>
+                <div className="tech-item">CI/CD</div>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -189,12 +195,6 @@ export const App = () => {
           </div>
         </section>
 
-        <section id="contact" className="section">
-          <h2 className="section-title">Contact</h2>
-          <div className="section-content">
-            <p>Feel free to reach out to me through the links in the sidebar!</p>
-          </div>
-        </section>
       </main>
     </div>
   );
